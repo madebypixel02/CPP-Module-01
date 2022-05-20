@@ -6,7 +6,7 @@
 /*   By: aperez-b <aperez-b@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/20 11:41:41 by aperez-b          #+#    #+#             */
-/*   Updated: 2022/05/20 13:44:49 by aperez-b         ###   ########.fr       */
+/*   Updated: 2022/05/20 15:23:39 by aperez-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,5 +21,5 @@ class HumanB
 		HumanB(std::string name);
 		~HumanB(void);
 		void	attack(void);
-		void	setWeapon(Weapon weapon);
+		void	setWeapon(Weapon &weapon);
 };
