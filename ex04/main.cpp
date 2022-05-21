@@ -6,7 +6,7 @@
 /*   By: aperez-b <aperez-b@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/21 11:05:46 by aperez-b          #+#    #+#             */
-/*   Updated: 2022/05/21 13:35:13 by aperez-b         ###   ########.fr       */
+/*   Updated: 2022/05/21 13:35:40 by aperez-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,8 +15,8 @@
 
 int	replace(char **argv, std::string str)
 {
-	std::ofstream		outfile;
-	int					pos;
+	std::ofstream	outfile;
+	int				pos;
 
 	outfile.open((std::string(argv[1]) + ".replace").c_str());
 	if (outfile.fail())
