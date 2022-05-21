@@ -6,7 +6,7 @@
 /*   By: aperez-b <aperez-b@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/20 09:37:56 by aperez-b          #+#    #+#             */
-/*   Updated: 2022/05/20 10:58:28 by aperez-b         ###   ########.fr       */
+/*   Updated: 2022/05/21 13:59:34 by aperez-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
 # include <algorithm>
 
 /* Zombie Class definition */
-class Zombie
+class	Zombie
 {
 	private:
 		std::string	_name;

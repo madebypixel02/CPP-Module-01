@@ -1,25 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   HumanA.hpp                                         :+:      :+:    :+:   */
+/*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: aperez-b <aperez-b@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/05/20 11:41:39 by aperez-b          #+#    #+#             */
-/*   Updated: 2022/05/21 13:59:54 by aperez-b         ###   ########.fr       */
+/*   Created: 2022/05/21 13:55:25 by aperez-b          #+#    #+#             */
+/*   Updated: 2022/05/21 14:25:28 by aperez-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Weapon.hpp"
+#include "Karen.hpp"
 
-class	HumanA
+int	main(void)
 {
-	private:
-		std::string	_name;
-		Weapon		&_weapon;
-	public:
-		HumanA(std::string name, Weapon &weapon);
-		~HumanA(void);
-		void	attack(void);
-		void	setWeapon(Weapon weapon);
-};
+	Karen k;
+
+	k.complain("DEBUG");
+	k.complain("INFO");
+	k.complain("WARNING");
+	k.complain("ERROR");
+	return (0);
+}
