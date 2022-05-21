@@ -6,7 +6,7 @@
 /*   By: aperez-b <aperez-b@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/21 11:05:46 by aperez-b          #+#    #+#             */
-/*   Updated: 2022/05/21 13:35:40 by aperez-b         ###   ########.fr       */
+/*   Updated: 2022/05/21 13:46:21 by aperez-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,10 +47,9 @@ int	main(int argc, char **argv)
 		return (1);
 	}
 	infile.open(argv[1]);
-	infile >> std::noskipws;
 	if (infile.fail())
 	{
-		std::cout << "Error: '" << argv[1] << "':" << \
+		std::cout << "Error: " << argv[1] << ":" << \
 		" no such file or directory" << std::endl;
 		return (1);
 	}
