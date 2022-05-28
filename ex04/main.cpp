@@ -6,7 +6,7 @@
 /*   By: aperez-b <aperez-b@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/21 11:05:46 by aperez-b          #+#    #+#             */
-/*   Updated: 2022/05/21 13:46:21 by aperez-b         ###   ########.fr       */
+/*   Updated: 2022/05/28 11:14:18 by aperez-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,7 +43,7 @@ int	main(int argc, char **argv)
 
 	if (argc != 4)
 	{
-		std::cout << "usage: replace <file> old_word new_word";
+		std::cout << "usage: replace <file> old_word new_word" << std::endl;
 		return (1);
 	}
 	infile.open(argv[1]);
