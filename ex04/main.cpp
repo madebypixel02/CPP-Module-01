@@ -6,7 +6,7 @@
 /*   By: aperez-b <aperez-b@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/21 11:05:46 by aperez-b          #+#    #+#             */
-/*   Updated: 2022/05/28 11:14:18 by aperez-b         ###   ########.fr       */
+/*   Updated: 2022/06/13 11:49:19 by aperez-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,9 +27,10 @@ int	replace(char **argv, std::string str)
 		if (pos != -1 && pos == i)
 		{
 			outfile << argv[3];
-			i += std::string(argv[2]).size();
+			i += std::string(argv[2]).size() - 1;
 		}
-		outfile << str[i];
+		else
+			outfile << str[i];
 	}
 	outfile.close();
 	return (0);
