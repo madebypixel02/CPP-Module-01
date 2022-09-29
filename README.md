@@ -103,7 +103,7 @@ This last exercise is an extension of the previous one. However this time we rec
     <img src="https://user-images.githubusercontent.com/40824677/189337035-d77110f1-0bc6-4071-bb6c-249054d99982.png">
 </p>
 
-Note how the **DEBUG** message is now shown because it is below **INFO**.
+Note how the **DEBUG** message is not shown because it is below **INFO**.
 
 ## Installation
 
