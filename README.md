@@ -34,10 +34,10 @@ This first exercise asks us to simply create a bunch of classes with basic metho
 
 This is an example output given my main.
 
-<p align="center">
+<div align="center">
     <img src="https://user-images.githubusercontent.com/40824677/189330417-5b804e3f-5590-4b35-8a6a-a8f53e410bb6.png">
     <img src="https://user-images.githubusercontent.com/40824677/189330643-ee7426d5-b49c-430f-a951-68b6e7969286.png">
-</p>
+</div>
 
 ## ex01. Moar brainz!
 
@@ -45,9 +45,9 @@ This second exercise consists of creating a method that will summon **N** zombie
 
 ### Example
 
-<p align="center">
+<div align="center">
     <img src="https://user-images.githubusercontent.com/40824677/189332763-1d2836a5-2300-49a0-bdb0-57dbe5d9a3bd.png">
-</p>
+</div>
 
 ## ex02. HI THIS IS BRAIN
 
@@ -55,9 +55,9 @@ This next exercise is super simple, it only aims to differentiate between pointe
 
 ### Example
 
-<p align="center">
+<div align="center">
     <img src="https://user-images.githubusercontent.com/40824677/189333500-6110f4ce-dbb5-4d0f-9729-49a13d47557d.png">
-</p>
+</div>
 
 ## ex03. Unnecessary violence
 
@@ -65,10 +65,10 @@ This one extends the concepts of references and pointers from the previous exerc
 
 ### Example
 
-<p align="center">
+<div align="center">
     <img src="https://user-images.githubusercontent.com/40824677/189334239-fa95bba9-eaa3-41db-b834-8decbd2a3a89.png">
     <img src="https://user-images.githubusercontent.com/40824677/189334016-a97f57c5-9bdb-40a0-a076-37d5a16a1eda.png">
-</p>
+</div>
 
 ## ex04. Sed is for losers
 
@@ -76,9 +76,9 @@ This exercise aims to replicate the basic performance of the **sed** command (**
 
 ### Example
 
-<p align="center">
+<div align="center">
     <img src="https://user-images.githubusercontent.com/40824677/189335320-92e905bb-e978-4b8d-859e-d87558ec481f.png">
-</p>
+</div>
 
 Note: the example above shows how the replace operation is reversible (unsurprisingly).
 
@@ -88,10 +88,10 @@ The next two exercises expand on the idea of refernces a bit further. We create 
 
 ### Example
 
-<p align="center">
+<div align="center">
     <img src="https://user-images.githubusercontent.com/40824677/189336182-7321ad3f-8c24-40ad-8a80-de48ab11da1e.png">
     <img src="https://user-images.githubusercontent.com/40824677/189335932-cc2a47f6-d0b1-4030-93ca-e714a4a2d6ab.png">
-</p>
+</div>
 
 ## ex06. Karen-filter
 
@@ -99,9 +99,9 @@ This last exercise is an extension of the previous one. However this time we rec
 
 ### Example
 
-<p align="center">
+<div align="center">
     <img src="https://user-images.githubusercontent.com/40824677/189337035-d77110f1-0bc6-4071-bb6c-249054d99982.png">
-</p>
+</div>
 
 Note how the **DEBUG** message is not shown because it is below **INFO**.
 
@@ -113,9 +113,3 @@ For this project and fututre C++ projects it is only required to have `clang` an
 This one was definitely harder than the previous one, but it was still pretty fun.
 
 June 13th, 2022
-
-<p align="center">
-  <a href="https://github.com/madebypixel02/CPP-Module-00">&#11013;</a>
-  <a href="https://github.com/madebypixel02/CPP-Modules">&#127968;</a>
-  <a href="https://github.com/madebypixel02/CPP-Module-02">&#10145;</a>
-</p>
